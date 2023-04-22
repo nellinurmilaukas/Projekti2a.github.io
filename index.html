@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AJAX Finnkino</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="script.js"></script> <!-- linkki javascript tiedostoon  -->
+	<link rel="stylesheet" type="text/css" href="AJAXcss.css"> <!--linkki css tiedostoon -->
+
+</head>
+<body>
+    <div class="sivu">
+    <div class="kokonaisuus">
+        <img id="kuva" src="Ice-Age.png" width="200" height="300"></img> <!-- kuva -->
+        <h1>Elokuvia tänään PK-seudulla</h1> <!-- otsikko -->
+        <button type="button" onclick="dropdown()"id="button"  class="dropbutton">Valitse elokuvateatteri PK-seutu</button> <!--buttoni jolla saa dropdownin esiin ja pois -->
+    </div>
+    <div id="naytokset" class="dropdown-content"> <!--id jolla haetaan teatterien valikoimat-->
+        <p id="helsinki">Helsinki (Kaikki)</p>
+        <p id="tennis">Helsinki Tennispalatsi</p>
+        <p id="itis">Helsinki Itis</p>
+        <p id="kinopalatsi">Helsinki Kinopalatsi</p>
+        <p id="sello">Espoo Sello</p>
+        <p id="iso-omena">Espoo Iso-omena</p>
+        <p id="flamingo">Vantaa Flamingo</p>
+        <p id="maxim">Helsinki Maxim</p>
+    </div>
+
+    <div id="naytosDiv"> <!--tänne tulee elokuvan kuvat ja tiedot, kun valitaan teatteri -->
+
+</body>
+
+
+</html>
