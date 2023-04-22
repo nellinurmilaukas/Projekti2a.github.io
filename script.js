@@ -30,7 +30,7 @@ function dropdown(){ //"valitse teatteri" nappulan painallus näyttää teatteri
     }
     var kinopalatsi = document.getElementById("kinopalatsi");
     kinopalatsi.onclick = function() {
-      Elokuvat(1034);
+      Elokuvat(1031);
     }
     var sello = document.getElementById("sello");
     sello.onclick = function() {
